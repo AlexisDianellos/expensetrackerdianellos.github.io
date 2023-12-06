@@ -1,0 +1,69 @@
+
+.expense-tracker-text{
+    color:darkslategray;
+    font-size:70px;
+    font-size: bold;
+    padding-top:30px;
+    font-family: 'Times New Roman', Times, serif;
+    display:flex;
+    align-items:center;
+    justify-content:center;       
+}
+.input-field{
+  display:flex;
+  align-items:center;
+  justify-content:center;  
+  margin-top:50px;
+}
+.add-style{
+    background-color: green;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-left: 8px;
+}
+.overview-expense{
+    color:black;
+    font-family:serif;
+    margin-top: 50px;
+    font-size: 20px; 
+    margin-left: auto;
+    margin-right:auto;
+    width: fit-content;
+}
+.overview-expense,.expense-table-header,.expense-table-data{
+    border: 1px solid#000;
+    border-collapse: collapse;
+}
+
+.delete-button{
+    display: block;
+    margin:auto;
+    background-color: red;
+    color: white;
+    font-size: bold;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    cursor: pointer;
+}
+
+.expense-table-header {
+  height:60px;
+  padding: 15px;
+  background: #385170;
+  color:white;
+  
+}
+.expense-table-data{
+  height:60px;
+  padding: 10px;
+  background: #ececec;
+  color:black;
+}
+
+.expense-table-caption{
+  font-family: 'Times New Roman', Times, serif;
+  padding-bottom: 10px;
+}
